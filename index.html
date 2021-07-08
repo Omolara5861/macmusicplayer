@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <div id="music-app">
+        <aside class="left-nav">
+            <div style="background-color: #ff5f50;" id="circle"></div>
+            <div style="background-color: #ffb629;" id="circle"></div>
+            <div style="background-color: #39ad50;" id="circle"></div>
+            <i style="color: #6f6f6f;" id="search-icon" class="fal fa-search"></i>
+                <div class='search-box'>
+                    <input type="text" class='search-music' placeholder="      Search">
+                </div>
+            <!-- Apple music -->
+            <p>Apple Music</p>
+            <ul>
+                <li><i style="color: #e24a66;" class="far fa-play-circle"></i> Listen Now</li>
+                <li><i style="color: #e24a66;" class="fab fa-itunes-note music-icon"></i> Browse</li>
+                <li><i style="color: #e24a66;" class="fab fa-itunes-note music-icon"></i> Radio</li>
+            </ul>
+            <p>Library</p>
+            <ul>
+                <li><i style="color: #e24a66;" class="far fa-clock"></i> Recently Added</li>
+                <li><i style="color: #e24a66;" class="fab fa-itunes-note music-icon"></i> Artists</li>
+                <li class="album"><i style="color: #e24a66;" class="fab fa-itunes-note music-icon"></i> Albums</li>
+                <li><i style="color: #e24a66;" class="fab fa-itunes-note"></i> Songs</li>
+            </ul>
+            <p>Store</p>
+            <ul>
+                <li><i style="color: #bcbcbc;" class="far fa-star"></i> iTunes Store</li>
+            </ul>
+            <p>Playlist</p>
+            <ul>
+                <li>All playlist</li>
+            </ul>
+        </aside>
+        <section class="main-player">
+            <span class="none">
+            <i style="color: #6f6f6f;" class="fas fa-random ico"></i>
+            <i style="color: #6f6f6f;" class="fas fa-backward ico"></i>
+            <i style="color: #6f6f6f;" class="fas fa-play ico"></i>
+            <i style="color: #6f6f6f;" class="fas fa-forward ico"></i>
+            <i style="color: #e24a66;" class="fas fa-random ico"></i>
+
+            <i class="fab fa-itunes-note test"></i>
+            <input type="text" value="The Brilliance - Gravity of Love">
+            </span>
+
+            <div class='player'>
+                <div class="music-box">
+                    <!-- <i class="fas fa-angle-left"></i> -->
+                    <i style="color: #bcbcbc;" class="fab fa-itunes-note music-icon fa-7x"></i>
+            </div>
+            <div class="description">
+                <!-- Name  artist Genre Play button  Shuffle -->
+                <h2>The Brilliance Gravity Of Love</h2>
+                <h2 style="color: #e24a66;">Unknown Artist</h2>
+                <small style="color: #5f5f5f;">UNKNOWN GENRE</small>
+                <br>
+                <button class="btn"><i class="fas fa-play"></i> Play</button>
+                <button><i class="fas fa-random"></i> Shuffle</button>
+            </div>
+            </div>
+            <hr style="margin-left: 20px;">     
+            <p style="font-weight: bold; padding: 20px; font-size: 13px;">&nbsp;&nbsp;<i style="color: #e24a66;" class="fas fa-volume-off"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Brilliance Gravity Of Love</p>
+            <hr style="margin-left: 20px;">
+            <p style="margin: 20px; font-size: 13px; color: #5f5f5f;"> &nbsp; 1 SONG. 4 MINUTES. 10.4 MB </p>
+            </section>
+        <aside class="right-nav">
+            <span style="background-color: #ededed; padding: 20px; display: block;">
+                <i class="fas fa-volume-off"></i>
+                <input type="range">
+                <i class="fas fa-volume-up" style="margin-right: 130px;"></i>
+    
+                <i class="far fa-comment-alt"></i>
+                <i class="fas fa-list-ul"></i>
+            </span>
+            <ul class='music-songs'>
+                <li >               
+                <button>Playing Next</button>
+                <button style="background-color:#e2e2e2 ;">History</button>
+            </li>
+                <hr style="width:90%; margin-left: 25px;">
+                <li>Playing Next &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #bcbcbc;">Clear</span></li> 
+                <hr style="width:90%; margin-left: 25px;"> 
+                <li><i class="fab fa-itunes-note tes"></i> &nbsp;&nbsp;&nbsp;The Brilliance - Gravity... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #bcbcbc;">4:19</span></li>
+                <hr style="width:70%; margin-left: 75px;">
+                <li><i class="fab fa-itunes-note tes"></i> &nbsp;&nbsp;&nbsp;The Brilliance - Gravity... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #bcbcbc;">4:19</span></li>
+                <hr style="width:70%; margin-left: 75px;">
+                <li><i class="fab fa-itunes-note tes"></i> &nbsp;&nbsp;&nbsp;The Brilliance - Gravity... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #bcbcbc;">4:19</span></li>
+                <hr style="width:70%; margin-left: 75px;">
+                <li><i class="fab fa-itunes-note tes"></i> &nbsp;&nbsp;&nbsp;The Brilliance - Gravity... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #bcbcbc;">4:19</span></li>
+                <hr style="width:70%; margin-left: 75px;">
+                <li><i class="fab fa-itunes-note tes"></i> &nbsp;&nbsp;&nbsp;The Brilliance - Gravity... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #bcbcbc;">4:19</span></li>
+                <hr style="width:70%; margin-left: 75px;">
+                <li><i class="fab fa-itunes-note tes"></i> &nbsp;&nbsp;&nbsp;The Brilliance - Gravity... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #bcbcbc;">4:19</span></li>
+                <hr style="width:70%; margin-left: 75px;">
+                <li><i class="fab fa-itunes-note tes"></i> &nbsp;&nbsp;&nbsp;The Brilliance - Gravity... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #bcbcbc;">4:19</span></li>
+                <hr style="width:70%; margin-left: 75px;">
+                <li><i class="fab fa-itunes-note tes"></i> &nbsp;&nbsp;&nbsp;The Brilliance - Gravity... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #bcbcbc;">4:19</span></li>
+                <hr style="width:70%; margin-left: 75px;">
+                <li><i class="fab fa-itunes-note tes"></i> &nbsp;&nbsp;&nbsp;The Brilliance - Gravity... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #bcbcbc;">4:19</span></li>
+                <hr style="width:70%; margin-left: 75px;">
+                <li><i class="fab fa-itunes-note tes"></i> &nbsp;&nbsp;&nbsp;The Brilliance - Gravity... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #bcbcbc;">4:19</span></li>
+            </ul>
+        </aside>
+    </div>
+</body>
+</html>
+

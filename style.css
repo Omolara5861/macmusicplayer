@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    border: none;
+}
+ul {
+    list-style: none;
+}
+
+hr {
+    background-color: #e2e2e2;
+    height: 2px;
+    border: 1px #e2e2e2;
+}
+
+.description small {
+    font-weight: bold;
+    margin-left: -100px;
+}
+
+.description h2{
+    margin-left: -100px;
+    padding: 2px;
+}
+
+.btn {
+    margin-left: -100px;
+}
+
+.description button {
+    padding: 0.5rem 1.5rem;
+    margin-right: 5px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 7px;
+    background-color: #ec3048;
+    color: white;
+}
+.left-nav{
+    background-color: #ededed;
+}
+
+.left-nav li {
+    margin-left: 30px;
+    padding: 8px;
+}
+
+.left-nav p {
+    margin-left: 13px; 
+    color: #c3c3c3;
+}
+
+.right-nav{
+    background-color: #ededed;
+
+}
+
+.main-player{
+    background-color: white;
+}
+
+#music-app{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 20% 55% 25%;
+}
+
+#search-icon{
+    position: absolute;
+    top: 8%;
+    left: 1%;
+}
+/* Your teaching class?? */
+/* Yes */
+
+.search-music{
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    width: 210px;
+    margin: 10px;
+    background-color: #e2e2e2;
+}
+
+.music-box {
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: #ededed;
+    box-shadow: 3px 5px #bcbcbc;
+    border-radius: 10px;
+}
+.music-box .music-icon{
+    margin: 20% 20%;
+}
+.description{
+    margin: 100px 100px 100px;
+}
+/* .player{
+    
+} */
+.buttons-play{
+    margin: 20px;
+    background-color: gray;
+}
+
+#circle {
+    background: lightblue;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 3px;
+}
+
+#circle:first-child {
+    margin-left: 20px;
+}
+
+.test {
+    background-color: #ededed;
+    width: 27px;
+    height: 30px;
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 5px;
+    color: #bcbcbc;
+    box-shadow: 0 0 1px 2px #bcbcbc;
+}
+
+.tes {
+    background-color: #ededed;
+    width: 27px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    color: #bcbcbc;
+    box-shadow: 0 0 1px 2px #bcbcbc;
+}
+
+.main-player input {
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.right-nav input {
+    width: 90px;
+    height: 9px;
+}
+
+.right-nav button {
+    padding: 2px 25px;
+    border-radius: 4px;
+    border: none;
+    background-color: #a1a1aa;
+}
+
+.right-nav li {
+    padding: 7px;
+    margin-left: 20px;
+}
+.player {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.ico {
+    margin: 5px;
+}
+
+.album {
+    background-color:#bcbcbc; 
+    margin-right: 40px; 
+    border-radius: 6px;
+}
+
+.none {
+    background-color: #ededed; 
+    padding: 20px; 
+    display: block;
+}
+
+/* Media Query */
+@media(max-width: 768px) {
+    #search-icon {
+        display: none;
+    }
+    #circle {
+        display: none;
+    }
+    .right-nav {
+        display: none;
+    }
+    #music-app, .player {
+        grid-template-columns: 1fr;
+    }
+    .search-music {
+        display: none;
+    }
+    .album {
+        background-color: inherit; 
+    }
+    .none {
+        display: none;
+    }
+    .description{
+        margin: 0px;
+        margin-left: 150px;
+    }
+    .description button {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .music-box {
+        width: 70%;
+    }
+    .left-nav p {
+        color: #000;
+        font-size: 22px;
+        font-weight: bold;
+    }
+}
